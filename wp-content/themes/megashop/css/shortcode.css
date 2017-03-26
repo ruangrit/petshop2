@@ -459,7 +459,7 @@ li .blog-content .blog_image_holder .bloglinks a:hover,article.type-post .blog-w
     font: 400 14px/18px "Poppins",Helvetica,sans-serif;
     text-overflow: ellipsis;
     text-transform: capitalize;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow: hidden;
     margin-bottom: 4px;
 }
