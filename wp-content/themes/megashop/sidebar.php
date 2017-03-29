@@ -13,6 +13,7 @@ $sidebar = 'sidebar-1';
  $class = 'col-md-3 col-sm-3 col-xs-12 col-sm-pull-9 col-md-pull-9';
 if ( is_active_sidebar( $sidebar )  ) : ?>
 	<aside id="secondary" class="sidebar widget-area <?php echo esc_attr($class); ?>">
+    
 		<?php
                 if ( has_nav_menu( 'left_menu' ) ) { 
             ?>

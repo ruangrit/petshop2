@@ -6204,3 +6204,14 @@ p > video {
     top: 0;
   }
 }
+
+/*  Dev style */
+
+#maxmegamenu_mega a {
+    font-size: 15px !important;
+    padding-bottom: 14px !important;
+}
+
+.home .page-title-wrapper {
+    display: none;
+}
