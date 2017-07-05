@@ -210,6 +210,7 @@ if($header_layout == 'header_1'){
                         if($support_title !="" ){ ?><div class="service-title" <?php echo wp_kses_post($style); ?>><?php echo esc_attr($support_title); ?></div><?php } ?>
                         <?php if($support_discription !="" ){ ?><div class="service-desc" <?php echo wp_kses_post($style); ?>><?php echo esc_attr($support_discription); ?></div><?php } ?>
                         </div>
+                        <div style="color:#FFF;font-size:0.8em;text-transform:none">Line: @kokopetshop.com</div>
                         </div>
                         </div>
                      </div>

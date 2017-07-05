@@ -26,7 +26,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 				<div style="border-bottom: 1px dashed;margin-bottom: 10px; padding-bottom:143px;" class="order-addresses<?php if( !wcdn_has_shipping_address( $order ) ) : ?> no-shipping-address<?php endif; ?>">
 					<div class="billing-address" style="float: right; width: 48%">
 						<h3><?php _e( 'Billing Address', 'woocommerce-delivery-notes' ); ?></h3>
-						<address style="font-size: 3em; line-height: 33px;">
+						<address style="font-size: 2.2em; line-height: 33px;">
 							
 							<?php if( !$order->get_formatted_billing_address() ) _e( 'N/A', 'woocommerce-delivery-notes' ); else echo apply_filters( 'wcdn_address_billing', $order->get_formatted_billing_address(), $order ); ?>
 							<?php 
